@@ -34,13 +34,14 @@ Aplikasi buku tamu digital modern dengan fitur lengkap untuk SMK Muhammadiyah Ba
 - ✅ Custom domain support
 
 ## 🎯 **QUICK DEPLOY (5 MENIT):**
-
+**Unduh ke zip dan install yang diperlukan untuk Git Repo ini lebih dahulu sebelum melanjutkan dengan mencari tutorial di internet**
 ### **1. Push ke GitHub**
 ```bash
 git add .
 git commit -m ""
 git push origin main
 ```
+## **Jika tidak mempunyai komputer untuk Push ke github bisa upload manual ke Project masing masing**
 
 ### **2. Deploy ke Vercel**
 1. Buka `https://vercel.com`
