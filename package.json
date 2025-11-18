@@ -4,15 +4,21 @@
   "private": true,
   "scripts": {
     "dev": "nodemon --exec \"next dev -p 3000\" --watch src --ext ts,tsx,js,jsx 2>&1 | tee dev.log",
-    "build": "next build && npm run db:generate",
+    "build": "next build",
     "start": "next start",
     "lint": "next lint",
+
     "db:push": "prisma db push",
     "db:generate": "prisma generate",
     "db:migrate": "prisma migrate dev",
     "db:reset": "prisma migrate reset",
-    "reset-admin": "npx tsx scripts/reset-admin.ts"
+
+    "reset-admin": "npx tsx scripts/reset-admin.ts",
+
+    /* ⭐ WAJIB UNTUK VERCEL – jalankan prisma generate setelah install */
+    "postinstall": "prisma generate"
   },
+
   "dependencies": {
     "@dnd-kit/core": "^6.3.1",
     "@dnd-kit/sortable": "^10.0.0",
@@ -90,6 +96,7 @@
     "zod": "^4.0.2",
     "zustand": "^5.0.6"
   },
+
   "devDependencies": {
     "@eslint/eslintrc": "^3",
     "@tailwindcss/postcss": "^4",
@@ -102,4 +109,4 @@
     "tw-animate-css": "^1.3.5",
     "typescript": "^5"
   }
-}
+  }
