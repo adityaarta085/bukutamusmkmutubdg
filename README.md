@@ -38,7 +38,7 @@ Aplikasi buku tamu digital modern dengan fitur lengkap untuk SMK Muhammadiyah Ba
 ### **1. Push ke GitHub**
 ```bash
 git add .
-git commit -m "Ready for deployment"
+git commit -m ""
 git push origin main
 ```
 
@@ -54,7 +54,7 @@ git push origin main
 3. Create **"Blob"** storage
 4. Run: `npm run db:push`
 
-### **4. SELESAI!** 🎉
+### **4. SELE Siap untuk dikerahkanSAI!** 🎉
 - **App**: `https://your-app.vercel.app`
 - **Admin**: `https://your-app.vercel.app/admin/dashboard`
 - **Login**: `admin` / `admin123`
@@ -174,8 +174,7 @@ Jika butuh bantuan:
 - Cek documentation di folder ini
 - Test di local development dulu
 - Pastikan semua environment variables ter-set
-- Contact developer untuk setup bantuan
-
+  
 ---
 
 ## 🎉 **SELAMAT MENGGUNAKAN!**
@@ -183,3 +182,5 @@ Jika butuh bantuan:
 **SMK Muhammadiyah Bandongan - Success By Discipline**
 
 *Built with ❤️ using Next.js 15, TypeScript, and Vercel*
+
+Dikembangkan Oleh Aditya Arta Putra X TJKT A
