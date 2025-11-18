@@ -15,7 +15,6 @@
 
     "reset-admin": "npx tsx scripts/reset-admin.ts",
 
-    /* ⭐ WAJIB UNTUK VERCEL – jalankan prisma generate setelah install */
     "postinstall": "prisma generate"
   },
 
